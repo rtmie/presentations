@@ -3,6 +3,11 @@
 #### Induction Training
 _Rob Mason -  October 2016_
 
+  <a href="http://www.twitter.com/rtmie"><img border="0" alt="twitter" src="https://upload.wikimedia.org/wikipedia/en/archive/9/9f/20161107041729!Twitter_bird_logo_2012.svg" width="70" height="70"></a>
+  <a href="http://www.github.com/rtmie"><img border="0" alt="github" src="https://image.flaticon.com/icons/svg/25/25231.svg" width="70" height="70"></a>
+
+  <img src="https://licensebuttons.net/l/by/3.0/88x31.png"> Attribution (for my parts)
+
 Note:
 Introduce myself - systems engineer
 worked in /developer/sys admin/manager roles
