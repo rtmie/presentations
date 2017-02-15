@@ -466,8 +466,13 @@ _AKA Microservices_
 * Need for knowledge of internals of other service otherwise it is not a bounded context
 
 
-<img src="http://i.imgur.com/aQYGZFy.png" style="height:600px;"/>
-
+<figure>
+<img src="http://i.imgur.com/aQYGZFy.png" style="height:550px;"/>
+<figcaption>
+<sup><sub>Image from <a href="http://www.kennybastani.com/2015/08/polyglot-persistence-spring-cloud-docker.html">http://www.kennybastani.com</a>
+</sub></sup>
+</figcaption>
+</figure>
 
 
 | Category          | Monolithic                                                | Microservices                                   |
@@ -542,5 +547,5 @@ what is programmable
 
 Note:
 Devops arises from years of (bad) experience
-For young uns starting out this presentation is just theory
+For young 'uns starting out this presentation is just theory
 Read the novel to understand how narrative is effected by these things
