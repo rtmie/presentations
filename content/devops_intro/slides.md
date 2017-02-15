@@ -51,7 +51,14 @@ Dev and Ops Separation
 
 
 ## Silos
-<img src="https://cdn.infoq.com/statics_s2_20161004-0306/resource/presentations/microservices-comparison-evolution/en/slides/sl28.jpg" style="height:600px;"/>
+<figure>
+<img src="https://cdn.infoq.com/statics_s2_20161004-0306/resource/presentations/microservices-comparison-evolution/en/slides/sl28.jpg" style="height:500px;"/>
+<figcaption>
+<sup><sub>
+Silos - various Adrian Cockroft presentations
+</sub></sup>
+</figcaption>
+</figure>
 
 
 ### Waste
@@ -75,7 +82,14 @@ Many similar definitions, I like the first
 terse but to the point - Werner Vogels - Amazon CTO
 
 
+<figure>
 <img src="static/devops.png" style="width: 1024px; height: 450px;"/>
+<figcaption>
+<sup><sub>
+The devops loop - various
+</sub></sup>
+</figcaption>
+</figure>
 Note:
 Continuous Flow through the System
 
