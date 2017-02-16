@@ -1,6 +1,6 @@
 # Devops Intro
 
-#### Induction Training
+#### Quick Talk
 _Rob Mason -  October 2016_
 
   <a href="http://www.twitter.com/rtmie"><img border="0" alt="twitter" src="https://upload.wikimedia.org/wikipedia/en/archive/9/9f/20161107041729!Twitter_bird_logo_2012.svg" width="70" height="70"></a>
@@ -303,6 +303,11 @@ _Gunnar Menzel - Chief Architect, Cap Gemeni_
 
 
 ## Practices
+
+
+### A whistle-stop tour of practises
+
+
 |                              |                         |
 | ---------------------------- |:-----------------------:|
 | Small Batches                | Continuous Integration  |
@@ -414,13 +419,25 @@ If ops code their infra they can work on providing "on demand services" instead 
 <img src="http://image.slidesharecdn.com/puppet-intro-luke-london-131121144331-phpapp02/95/puppet-keynote-puppet-camp-london-17-638.jpg?cb=1385045862"/>
 
 
-##### Immutable Infrastructure
+##### Immutable Infrastructure/Phoenix Server
 * Immutable - can re replaced but not modified
 * Re-install/replace instance
+* Frequent destroy/rebuild
+* A working "image" is deployed
+* Upgrade deploys a new working image
+* On upgrade fail -> rollback to previous working image
+* Avoid complex transition orchestration
 * De-facto approach for cloud, but can be used with bare metal
-* ToDo - explain motivation
 
+
+<figure>
 <img src="https://boxfuse.com/assets/posts/no-ssh/image-no-ssh.png"/>
+<figcaption>
+<sup><sub>
+Image source - boxfuse.com
+</sub></sup>
+</figaption>
+</fig>
 
 
 ### Continuous Deployment
