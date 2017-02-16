@@ -415,11 +415,10 @@ If ops code their infra they can work on providing "on demand services" instead 
 
 
 ##### Immutable Infrastructure
-* Configuration is baked into system, RO (Virtual/Bare Metal)
-* Change in config is generated as new image or boot config
+* Immutable - can re replaced but not modified
 * Re-install/replace instance
 * De-facto approach for cloud, but can be used with bare metal
-
+* ToDo - explain motivation
 
 <img src="https://boxfuse.com/assets/posts/no-ssh/image-no-ssh.png"/>
 
