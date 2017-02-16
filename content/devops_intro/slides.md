@@ -503,7 +503,7 @@ _AKA Microservices_
 #### Bounded Context
 * A specific microservice knows nothing about underlying implementation of any other microservice in the system
 * Just API calls
-* Need for knowledge of internals of other service otherwise it is not a bounded context
+* No need for knowledge of internals of other service otherwise it is not a bounded context
 
 
 <figure>
