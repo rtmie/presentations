@@ -521,13 +521,13 @@ _AKA Microservices_
 |Understandability  |Often confusing and hard to maintain                       | Much better readability and much easier to maintain            |
 
 
-| Category          | Monolithic                                                | Microservices                                   |
-|-------------------|----------------------------------------------------------------------------|----------------------------------------------------|
-|Deployment         |Complex - maintenance windows and scheduled downtimes      | Simple - each microservice can be deployed individually        |
-|Language           |Typically developed in one programming language            | Each microservice can be developed in a different  language |
-|Scaling            |Scale the entire app even though bottlenecks are localized | Scale bottle-necked services without scaling the entire app      |
+| Category          | Monolithic                                           | Microservices                                               |
+|-------------------|------------------------------------------------------|-------------------------------------------------------------|
+|Deployment         |Complex - maintenance windows and scheduled downtimes | Simple - each microservice can be deployed individually     |
+|Language           |Typically developed in one programming language       | Each microservice can be developed in a different  language |
+|Scaling            |Scale the entire app when bottlenecks are localized   | Scale bottle-necked services without scaling the entire app |
 
-#### Typically deployed in virtual machines or more recently containers
+###### Typically deployed in virtual machines or more recently containers
 
 
 <!-- .slide: data-background-image="static/enterprise-hud.png" -->
