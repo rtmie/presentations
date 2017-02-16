@@ -169,7 +169,7 @@ Note:
 * Systems Thinking - emphasise the performance of the whole system/organisation, not just specific silos
 * Apply to any process large or small
   * Team can look at time from developer onboarding to productivity
-  * Delivery maanger can look at end to end flow of a software release
+  * Delivery manager can look at end to end flow of a software release
 
 
 ### 2. Feedback -
@@ -209,6 +209,11 @@ The upgrading puppet master version anecdote
 * Sometimes in IT processes, people or external company factors involved => more variable
 * It starts with metrics - no metrics => no identification of Constraints
 * Automation is key - automated processes more likely to give repeatable constraint
+
+
+### A Call to Action
+######  Apply these small in your team, project _today_
+######  Don't wait for the whole oragnisation to come round
 
 
 ### How to get there
