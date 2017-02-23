@@ -207,13 +207,35 @@ The upgrading puppet master version anecdote
 * Video provides simplistic view - manufacturing process is automated,repeatable
   * Can be characterised
 * Sometimes in IT processes, people or external company factors involved => more variable
-* It starts with metrics - no metrics => no identification of Constraints
+* It starts with metrics - no metrics => no identification of constraints
 * Automation is key - automated processes more likely to give repeatable constraint
+
+
+### Systems Thinking
+
+> Systems thinking [is] a way of thinking about, and a language for describing and understanding, the forces and interrelationships that shape the behavior of systems. This discipline helps us to see how to change systems more effectively, and to act more in tune with the natural processes of the natural and economic world.
+_Peter Senge - The Fifth Discipline_
+
+<sup><sub>
+**as distinct from event based thinking**
+</sub></sup>
+
+
+* System - set of interrelated and interdependent components that form a unified whole with specific purpose
+* Collection != System
+* Kitchen - a collection of things (albeit some of those things are systems, e.g. fridge)
+* Bowl of fruit - a system - types of fruit in contact cause different decay effect
+* Team - a system - people + character types + interactions
+
+See [Introduction to Systems Thinking - Daniel Kim](https://thesystemsthinker.com/wp-content/uploads/2016/03/Introduction-to-Systems-Thinking-IMS013Epk.pdf)
+
+
+![alt text](https://www.snideradvisors.com/wp-content/uploads/boat.png)
 
 
 ### A Call to Action
 ######  Apply these small in your team, project _today_
-######  Don't wait for the whole oragnisation to come round
+######  Don't wait for the whole organisation to come round
 
 
 ### How to get there
