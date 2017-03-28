@@ -140,6 +140,7 @@ Note:
   </figcaption>
 </figure>
 
+
 ### Lean Software Development
 
 * Mary Poppendieck
