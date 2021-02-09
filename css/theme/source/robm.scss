@@ -1,0 +1,71 @@
+/**
+ * robm theme for reveal.js.
+ *
+ * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+
+// Include theme-specific fonts
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700bold);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,600,700&subset=latin,cyrillic-ext,greek-ext,greek,latin-ext,cyrillic);
+
+
+// Override theme settings (see ../template/settings.scss)
+$mainFontSize: 38px;
+$mainFont: 'Source Sans Pro', Helvetica, sans-serif;
+$headingFont: 'Source Sans Pro', Helvetica, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: uppercase;
+$headingFontWeight: 600;
+
+//$mainFont: 'Inconsolata', mono;
+$mainColor: #333;
+//$headingFont: 'Quicksand', sans-serif;
+$headingColor: #333;
+//$headingLetterSpacing: -0.08em;
+//$headingTextShadow: none;
+$backgroundColor: #f7f7f7;
+//$linkColor: #DADADA;
+
+//$backgroundColor: #f7fbfc;
+$linkColor: #3b759e;
+$linkColorHover: lighten( $linkColor, 20% );
+$selectionBackgroundColor: #134674;
+$heading1Size: 2.5em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+// Fix links so they are not cut off
+.reveal a {
+	line-height: 1.3em;
+}
+figure {
+  height: 80%;
+  text-align: center;
+  font-style: italic;
+  font-size: 0.5em;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+// Background generator
+@mixin bodyBackground() {
+	@include radial-gradient( #e3e3e3, #f7f7f7 );
+}
+
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
